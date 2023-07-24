@@ -1,0 +1,228 @@
+.btn-left {
+  background-color: white;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  padding: 5px 25px;
+  box-shadow: 0px 0px 20px #00000017;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.btn-right {
+  background: transparent linear-gradient(304deg, #e11e25 0%, #d4242a 100%) 0%
+    0% no-repeat padding-box;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  padding: 15px 80px;
+  box-shadow: 1px 2px 2px #00000029;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+  color: #6dbcdb;
+}
+
+.box {
+  background-color: #fff;
+  width: 185px;
+  height: 200px;
+  padding: 15px 20px;
+  box-shadow: 0px 0px 20px #00000017;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.box p {
+  font-family: "Montserrat";
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  color: #6dbcdb;
+}
+
+.box h3 {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 35px;
+  color: #000;
+}
+
+.graph {
+  background-color: white;
+  margin: auto;
+  width: 700px;
+  height: 425px;
+  box-shadow: 0px 0px 20px #00000017;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.stats-heading {
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+.legend-heading {
+  font-family: "Montserrat";
+  font-size: 10px;
+  color: #707070;
+}
+
+.legend-count {
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+.top-box {
+  height: 225px;
+  width: 548px;
+  border-radius: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0px 25px 15px 0px;
+}
+
+.top-box p {
+  font-family: "Titillium Web";
+  font-size: 16px;
+  letter-spacing: 0.47px;
+  color: #000000;
+}
+
+.top-box h2 {
+  font-family: "Titillium Web";
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1.65px;
+  color: #707070;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.top-box h3 {
+  font-family: "Titillium Web";
+  text-align: left;
+  font-weight: 600;
+  color: #000;
+  font-size: 19px;
+}
+
+.top-box h1 {
+  text-align: left;
+  font-family: "Titillium Web";
+  color: #000000;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+/* Add this to your CSS file or inside a style block if using CSS-in-JS */
+.badge {
+  position: absolute;
+  background: transparent linear-gradient(180deg, #ff9500 0%, #ffd45e 100%) 0%
+    0% no-repeat padding-box;
+  color: #fff; /* Customize the text color */
+  width: 100px;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+  
+.badge p {
+  text-align: center;
+  margin: auto;
+  font-weight: 800;
+  font-family: "Titillium Web";
+  font-size: 10px;
+  color: white;
+}
+
+.heading{
+    font-family: 'Nunito';
+    color: #4C4C4C;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.nav{
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+
+}
+.nav p{
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: #C1001F;
+    font-weight: 700;
+}
+
+table {
+    width: 100%; 
+    border-collapse: separate;
+    border-spacing: 20px 30px;
+  }
+  
+  thead {
+    background-color: #f1f1f1; 
+  }
+  
+  thead th, tbody td {
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  /* Optional: Add borders to the table */
+  th {
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: #C1001F;
+    font-weight: 700;
+  }
+  td{
+    margin-top: 15px;
+  }
+  .type-squad{
+    font-family: "Nunito";
+    font-size: 14px;
+    color: #809900;
+    background-color: #FFF27B;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 10px;
+    font-weight: 800;
+    padding: 	15px 20px 15px 20px;
+  }
+
+  .type-normal{
+    font-family: "Nunito";
+    font-size: 14px;
+    color: #E90008;
+    background-color: #FFAFB1;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 10px;
+    font-weight: 800;
+    padding: 	15px 20px 15px 20px;
+  }
+
+  .insights h3{
+    color: #606060;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  
+  

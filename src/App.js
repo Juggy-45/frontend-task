@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Sidebar from "./Components/sidebar";
+import Header from "./Components/header";
+import Dashboard from "./Components/dashboard";
+import TQM from "./Components/TQM/index";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <div className="bg-[#F7F7F7]">
+      <Header />
+    <div  className='flex gap-10'>
+      <Sidebar /> 
+    <Routes>
+      <Route path="/" element={<Dashboard />}></Route>
+      <Route path="/tqm" element={<TQM />}></Route>
+    </Routes>
+      </div>
     </div>
+    </BrowserRouter>
   );
 }
 

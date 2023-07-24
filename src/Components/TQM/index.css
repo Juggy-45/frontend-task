@@ -1,0 +1,95 @@
+.quality{
+    background-color: #E11E25;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 50px 0px 0px 50px;
+    font-family: 'Nunito';
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.performance{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: 'Nunito';
+    color: #606060;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.boxes{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+}
+
+.boxes h3{
+    color: #606060;
+    font-weight: 900;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.phase1{
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent linear-gradient(300deg, #FCAF3C 0%, #FF9500 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height:40px;
+}
+
+.phase2{
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent linear-gradient(322deg, #FFEF5D 0%, #F9C210 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height:40px;
+}
+
+.phase3{
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent linear-gradient(355deg, #82F89D 0%, #46C864 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height:40px;
+}
+
+.phase4{
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent linear-gradient(300deg, #E11E25 0%, #D4242A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height:40px;
+}
+
+.phase5{
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent linear-gradient(300deg, #FCAF3C 0%, #FF9500 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    height:40px;
+}
